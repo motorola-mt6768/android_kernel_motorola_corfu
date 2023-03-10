@@ -14,3 +14,11 @@ config INPUT_MISC_FPC1020_SAVE_TO_CLASS_DEVICE
          sysfs.
 	 If unsure, say N.
 
+config FPC_SHARE_GPIO
+	bool "TP stops working because vcc gpio is pull-down after FPS reset"
+	default n
+	depends on INPUT_MISC_FPC1020
+	help
+	 Say Y here if you wish to Remove vcc pull-down in FPS driver
+	 If unsure, say N.
+
