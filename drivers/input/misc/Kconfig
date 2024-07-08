@@ -855,4 +855,8 @@ source "drivers/input/misc/ets_fps_mmi/Kconfig"
 
 source "drivers/input/misc/fpc_fps_mmi/Kconfig"
 
+source "drivers/input/misc/focaltech_fps/Kconfig"
+
+source "drivers/input/misc/chipone_fps/Kconfig"
+
 endif

@@ -1,0 +1,3 @@
+fpsensor_mtk_spi-y += fpsensor_spi_tee.o
+
+obj-$(CONFIG_INPUT_CHIPONE_FPS) += fpsensor_mtk_spi.o

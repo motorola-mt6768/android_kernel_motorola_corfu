@@ -1,0 +1,3 @@
+focal_fps-y += ff_ctl.o plat-mt6768.o
+
+obj-$(CONFIG_INPUT_FOCALTECH_FPS) += focal_fps.o

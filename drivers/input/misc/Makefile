@@ -83,3 +83,5 @@ obj-$(CONFIG_INPUT_YEALINK)		+= yealink.o
 obj-$(CONFIG_INPUT_IDEAPAD_SLIDEBAR)	+= ideapad_slidebar.o
 obj-$(CONFIG_INPUT_EGISTEC_FPS)	+= ets_fps_mmi/
 obj-$(CONFIG_INPUT_MISC_FPC1020)	+= fpc_fps_mmi/
+obj-$(CONFIG_INPUT_CHIPONE_FPS)		+= chipone_fps/
+obj-$(CONFIG_INPUT_FOCALTECH_FPS)	+= focaltech_fps/
